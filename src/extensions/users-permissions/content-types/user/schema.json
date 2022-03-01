@@ -63,11 +63,22 @@
       "inversedBy": "users",
       "configurable": false
     },
-    "places": {
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "place": {
       "type": "relation",
-      "relation": "oneToMany",
+      "relation": "oneToOne",
       "target": "api::place.place",
-      "mappedBy": "user"
+      "inversedBy": "user"
     }
   }
 }

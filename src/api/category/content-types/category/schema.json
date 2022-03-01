@@ -16,11 +16,11 @@
       "required": true,
       "unique": true
     },
-    "places": {
+    "place": {
       "type": "relation",
-      "relation": "manyToMany",
+      "relation": "oneToOne",
       "target": "api::place.place",
-      "mappedBy": "categories"
+      "mappedBy": "category"
     }
   }
 }

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_social_social_medias",
+  "info": {
+    "displayName": "network",
+    "icon": "comment-dots",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "networkType": {
+      "type": "string",
+      "required": true
+    },
+    "value": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
